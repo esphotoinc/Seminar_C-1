@@ -76,4 +76,17 @@ Console.Clear();
 //     }
 // }
 
+// 4.
+
+// 5. 
+
+// Console.Write("Введите трехзначное число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if (num > 99 && num <= 999){
+//     int x = num % 10;
+//     Console.WriteLine(x);
+// }
+// else{
+//     Console.WriteLine("Введенное число не трехзначное");
+// }
 
