@@ -10,10 +10,11 @@
 // if  (num1 > num2)
 //     Console.Write("First number - max");
 
-// if (num1 < num2)
+// eslse if (num1 < num2)
 //     Console.Write("Second number - max");
 
-// else Console.Write("First number = Second number");
+// else (num1 = num2)
+//  Console.Write("First number = Second number");
 
 // 2. Напишите программу, которая на вход принимает 3 числа и выдает максимальное из этих чисел. 
 
@@ -66,8 +67,9 @@
 // Console.Write("Input number ");
 // int num = Convert.ToInt32(Console.ReadLine());
 
-// for (int x = 2; x < num; x++)
+// for (int x = 2; x < = num; x++)
 // if (x % 2 == 0)
 // Console.WriteLine (x);
+
 
 
