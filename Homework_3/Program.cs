@@ -54,22 +54,22 @@
 
 // // 1 вариант.
 
-// Console.Write("Введите число: ");
-// int num = int.Parse(Console.ReadLine());
-// int cycle = 1;
-// int cycleCube = Convert.ToInt32(Math.Pow(cycle, 3));
-// int max = Convert.ToInt32(Math.Pow(num, 3));
+Console.Write("Введите число: ");
+int num = int.Parse(Console.ReadLine());
+int cycle = 1;
+int cycleCube = Convert.ToInt32(Math.Pow(cycle, 3));
+int max = Convert.ToInt32(Math.Pow(num, 3));
 
-// while (cycleCube < max)
-// {
-//     {
-//         Console.WriteLine($"cycle ={cycle}");
+while (cycleCube < max)
+{
+    {
+        Console.WriteLine($"cycle ={cycle}");
 
-//     }
+    }
 
-//     cycle = cycle++;
+    cycle = cycle++;
     
-// }
+}
 
 // // 2 вариант.
 
