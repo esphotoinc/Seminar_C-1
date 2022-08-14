@@ -50,10 +50,28 @@
 // // d:f3 - округление до 3 символа после запятой
 // Console.WriteLine($"d={d:f3}");
 
-// Задача 23. Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+// // Задача 23. Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+// // 1 вариант.
 
 // Console.Write("Введите число: ");
-// int cube = Convert.ToInt32(Console.ReadLine());
+// int num = int.Parse(Console.ReadLine());
+// int cycle = 1;
+// int cycleCube = Convert.ToInt32(Math.Pow(cycle, 3));
+// int max = Convert.ToInt32(Math.Pow(num, 3));
+
+// while (cycleCube < max)
+// {
+//     {
+//         Console.WriteLine($"cycle ={cycle}");
+
+//     }
+
+//     cycle = cycle++;
+    
+// }
+
+// // 2 вариант.
 
 // void Cube(int[] cube){
 //   int counter = 0;
