@@ -16,6 +16,23 @@
 // Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 
 
+// Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+
+// Console.Write ("Введите число ");
+// int num = int.Parse(Console.ReadLine());
+// Console.WriteLine($"сумма = {GetSumNums(num)}");
+
+// int GetSumNums(int num)
+// {
+//     int sum = 0;
+//     while (num > 0 )
+//     {
+//         sum += num%10;
+//         num /=10;
+//     }
+//     return sum;
+// }
+
 // // Заполнение массива
 // void FillArray(int[] collection)
 // {
